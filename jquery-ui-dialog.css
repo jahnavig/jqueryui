@@ -1,0 +1,10 @@
+.ui-progressbar
+{
+	height:14px;
+	width:300px;
+}
+
+.ui-progressbar-value{
+
+	background-image:url("rainbarb.gif");
+}

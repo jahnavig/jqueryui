@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>menu</title>
+  <script src="external/jquery/jquery.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
+ <script>
+	$(function(){
+	$('#menu').menu();
+	});
+	
+ </script>
+  <style>
+	 .ui-menu { width: 150px; }
+  </style>
+ </head>
+ <body>
+	<ul id = "menu">
+		<li>java</li>
+		<li>UI
+			<ul>
+				<li>css</li>
+				<li>html
+					<ul>
+						<li>html</li>
+						<li>html5</li>
+					</ul>
+				</li>
+				<li>bootstrap3</li>
+			</ul>
+		</li>
+
+		<li>J2EE
+			<ul>
+				<li>JSP</li>
+				<li>Servlets</li>
+				<li>EJB</li>
+			</ul>
+		</li>
+		<li class = "ui-state-disabled">Frameworks</li>
+		
+	</ul>
+ </body>
+</html>

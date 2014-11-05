@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+  
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.min.js"></script>
+  <script src = "jquery.js" type = "text/javascript"></script>
+
+
+	 <link rel = "stylesheet" a href = "jquery-ui-dialog.css" type = "text\css"/>
+
+  <link rel="stylesheet" href="jquery-ui.min.css">
+
+<link type="text/css" href="jquery-ui.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+      <script src = " http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/jquery-ui-i18n.min.js"></script>
+
+ <script>
+
+ $(document).ready(function(){
+	
+	//icons
+
+/*	$('#accordian').accordion({icons:{
+			"header":"ui-icon-arrowthick-1-e",
+			"activeHeader":"ui-icon-arrowthick-1-s"
+		} });*/
+		$('#accordian').accordion({heightStyle:"content"});	
+	//$('#accordian').accordion({active:2});
+	//$('#accordian').accordion("option","active",1);
+	$('#accordian').accordion({collapsable:true});
+
+		$('#accordian').accordion({ icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" } });
+
+
+	
+
+ });
+	
+ </script>
+
+ </head>
+ <body>
+	
+	<!--<div id = "accordian">
+		<div>
+			<h3>panel1</h3>
+			<div><p>panel1</p></div>
+		</div>
+		<div>
+			<h3>panel2</h3>
+			<div>
+				<p>panel2</p>
+				<p>panel2</p>
+			</div>
+		</div>
+		<div>
+			<h3>panel3</h3>
+			<div>
+				<p>panel3</p>
+				<p>panel3</p>
+				<p>panel3</p>
+			</div>
+		</div>
+	
+	</div>
+-->
+
+<div id = "accordian">
+	<div>
+		<h3>panel 1</h3>
+		<div><p>Panel 1</p></div>
+	</div>
+	<div>
+		<h3>panel 2</h3>
+		<div><p>Panel 2</p>
+			<p>Panel 2</p>
+		</div>
+	</div>
+
+	<div>
+		<h3>panel 3</h3>
+		<div><p>Panel 3</p>
+			<p>Panel 3</p>
+			<p>Panel 3</p>
+		</div>
+	</div>
+</div>
+	
+ </body>
+</html>
